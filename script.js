@@ -38,13 +38,13 @@ function salvarEquipamento() {
         },
         method: "POST",
         body: JSON.stringify({
-            operator: operatorName,
-            celula: celulaSelecionada,
-            startH: startHour,
-            endH: endHour,
-            totalTimeH: totalTime,
-            startD: startDate,
-            endD: endDate,
+            operatorName: operatorName,
+            celulaSelecionada: celulaSelecionada,
+            startHour: startHour,
+            endHour: endHour,
+            totalTime: totalTime,
+            startDate: startDate,
+            endDate: endDate,
 
         })
 
